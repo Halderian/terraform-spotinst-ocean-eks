@@ -13,23 +13,23 @@ terraform {
     }
     local = {
       source  = "hashicorp/local"
-      version = ">= 1.14"
+      version = ">= 1.2"
     }
     null = {
       source  = "hashicorp/null"
-      version = ">= 1.14"
+      version = ">= 2.1"
     }
     template = {
       source  = "hashicorp/template"
-      version = ">= 1.14"
+      version = ">= 2.1"
     }
     random = {
       source  = "hashicorp/random"
-      version = ">= 1.14"
+      version = ">= 2.1"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = ">= 1.14"
+      version = ">= 1.11"
     }
   }
 }
