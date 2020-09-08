@@ -106,7 +106,7 @@ EOF
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "2.29.0"
+  version = "2.48.0"
 
   name               = local.cluster_name
   cidr               = "10.0.0.0/16"
@@ -125,7 +125,7 @@ module "vpc" {
 
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "10.0.0"
+  version = "12.2.0"
 
   cluster_name    = local.cluster_name
   cluster_version = var.cluster_version
